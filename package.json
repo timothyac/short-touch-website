@@ -1,0 +1,12 @@
+{
+  "name": "short-touch-website",
+  "version": "1.0.0",
+  "description": "Website for the short-touch app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "compile": "less-watch-compiler public/less public/css"
+  },
+  "author": "sunstrous",
+  "license": "ISC"
+}

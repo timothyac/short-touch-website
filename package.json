@@ -8,5 +8,8 @@
     "compile": "less-watch-compiler public/less public/css"
   },
   "author": "sunstrous",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

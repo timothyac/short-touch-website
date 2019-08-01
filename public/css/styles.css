@@ -1,35 +1,133 @@
+* {
+  margin: 0;
+}
+html {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+  font-size: 106.25%;
+}
 body {
   background: #121217;
   color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.47059;
+  font-style: normal;
+  letter-spacing: -0.022em;
+  text-align: left;
 }
 h1 {
-  font-size: 61px;
+  font-weight: 600;
   margin-bottom: 0.5rem;
 }
+h2 {
+  color: #585961;
+  font-size: 37px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.007em;
+}
+h3 {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.0625;
+  letter-spacing: -0.009em;
+  margin-bottom: 24px;
+}
 p {
-  color: #51515a;
-  max-width: 650px;
-  margin: 15px auto;
+  color: #585961;
 }
 a {
-  color: #0070c9;
+  color: #6bf;
   text-decoration: none;
-  margin: 10px;
+  margin: 0 10px;
 }
 a:hover {
+  color: #6bf;
   text-decoration: underline;
 }
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+}
+.inner-section {
+  width: 83.33333%;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  background: #17171d;
+  height: 55px;
+}
+nav div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+  padding-top: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+nav div h1 {
+  margin-top: 5px;
+}
+nav div ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+nav div ul li a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+}
+nav div ul li a:hover {
+  text-decoration: none;
+}
+nav div ul li span {
+  cursor: default;
+  margin: 0 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #585961;
+}
+nav div ul #download {
+  background: #6bf;
+  padding: 7.5px 12px;
+  border-radius: 20px;
+  background: #3458ff;
+  background: linear-gradient(0deg, #3458ff 29%, #3474ff 100%);
+}
+nav div ul #download:hover {
+  color: #fff;
+  background: #3458ff;
+  background: linear-gradient(0deg, #5573fd 29%, #5d91ff 100%);
+}
 header {
-  margin-top: 5rem;
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+  margin-top: 250px;
 }
-header p {
-  font-size: 24px;
+header div {
+  width: 83.33333%;
+  margin-left: auto;
+  margin-right: auto;
 }
-header a {
+header div p {
   font-size: 21px;
+  line-height: 1.38105;
+  font-weight: 400;
+  letter-spacing: 0.011em;
 }
-header img {
+header div a {
+  font-size: 21px;
+  margin-left: 0;
+  margin-right: 45px;
+}
+header div .arrow::after {
+  content: " >";
+}
+img.logo {
   width: 200px;
 }

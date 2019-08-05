@@ -12,14 +12,11 @@
 
 ## Todo List
 
-[x] Get initial styling down
+- [x] Get initial styling down
+- [x] Deploy to Heroku
+- [x] Responsive styling for tablet and mobile
+- [ ] Add more content
 
-[x] Deploy to Heroku
+## Built for
 
-[x] Responsive styling for tablet and mobile
-
-[ ] Add more content
-
-## Inspired by
-
-- [Caprine](https://github.com/sindresorhus/caprine) by [Sindre Sorhus](https://github.com/sindresorhus)
+- [Short Touch](https://github.com/SunstroUS/short-touch)

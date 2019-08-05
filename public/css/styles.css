@@ -120,7 +120,10 @@ header div p {
   font-weight: 400;
   letter-spacing: 0.011em;
 }
-header div a {
+header div div {
+  margin: 15px 0;
+}
+header div div a {
   font-size: 21px;
   margin-left: 0;
   margin-right: 45px;
@@ -130,4 +133,76 @@ header div .arrow::after {
 }
 img.logo {
   width: 200px;
+}
+@media (max-width: 800px) {
+  nav div {
+    justify-content: none;
+  }
+  nav h1 {
+    padding-left: 19px;
+  }
+  nav div ul {
+    padding-inline-start: 0px;
+  }
+}
+@media (max-width: 450px) {
+  body {
+    max-width: 450px;
+  }
+  h2 {
+    color: #585961;
+    font-size: 21px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 0.007em;
+    margin-bottom: 5px;
+  }
+  h3 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.0625;
+    letter-spacing: -0.009em;
+    margin-bottom: 20px;
+  }
+  .section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  nav {
+    height: 90px;
+  }
+  nav div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  nav ul {
+    margin: 0 auto;
+  }
+  nav ul #download {
+    display: none;
+  }
+  header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 75px;
+  }
+  header div {
+    width: 83.33333%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header div p {
+    font-size: 19px;
+    line-height: 1.38105;
+    font-weight: 400;
+    letter-spacing: 0.011em;
+  }
+  header div .download {
+    display: none;
+  }
 }
